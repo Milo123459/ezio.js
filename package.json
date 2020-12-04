@@ -16,5 +16,6 @@
     "url": "https://github.com/iShibi/ezio.js/issues"
   },
   "homepage": "https://github.com/iShibi/ezio.js#readme",
-  "type": "module"
+  "type": "module",
+  "typings": "index.d.ts"
 }
