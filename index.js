@@ -14,7 +14,7 @@ export default class Ezio {
                 prompt: '',
             });
 
-            ioInterface.question(question, (answer) => {
+            ioInterface.question(question.endsWith(' ') ? question : question += ' ', (answer) => {
                 input = answer;
                 ioInterface.close();
             });
