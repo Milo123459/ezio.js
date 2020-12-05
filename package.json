@@ -1,7 +1,7 @@
 {
   "name": "ezio.js",
-  "version": "1.0.1",
-  "description": "A promise based simple Input-Output module for JavaScript",
+  "version": "1.1.0",
+  "description": "A promise-based simple Input-Output module for JavaScript",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -10,12 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/iShibi/ezio.js.git"
   },
-  "author": "Shubham Parihar",
+  "author": "Shubham Parihar <shubhamparihar391@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/iShibi/ezio.js/issues"
   },
   "homepage": "https://github.com/iShibi/ezio.js#readme",
   "type": "module",
-  "typings": "index.d.ts"
+  "typings": "index.d.ts",
+  "keywords": [
+    "ezio.js",
+    "ezio",
+    "input-output",
+    "io"
+  ]
 }
